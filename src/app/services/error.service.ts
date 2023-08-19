@@ -13,8 +13,7 @@ export class ErrorService {
   }
 
   clear() {
- 
-    this.error$.next('')
+     this.error$.next('')
   }
 
 }
